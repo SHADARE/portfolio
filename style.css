@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    background: #fff;
+    padding: 2rem;
+    border-style: initial;
+    height: 5.6rem;
+}
+nav ul .top-nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    list-style: none;
+}
+.get-btn{
+    width: 16vw;
+    height: 9vh;
+    border-radius: 8px;
+    background: indianred;
+    color: #fff;
+    margin-top: -15px;
+    border-style: none;
+    
+}
+.home{
+    text-decoration: none;
+}
+
+
+nav ul .top-nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    align-items: center;
+    margin-left: -6rem;
+}
+.paragraph{
+    padding-top: 5rem;
+    margin-left: 3rem;
+}
+.paragraph .f1{
+    margin-bottom: 3rem;
+    color: darkorange;
+    font-size: 1rem;
+    font-weight: 300;
+} 
+.paragraph .f2{
+    margin-bottom: 2.5rem;
+    font-size: 3.6rem;
+    color: cornflowerblue;
+}
+.lorem{
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.f1-btn{
+    margin-left: 3rem;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+.lm{
+    width: 12vw;
+    height: 9vh;
+    background-color: coral;
+    border-style: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+.hm{
+    width: 12vw;
+    height: 9vh;
+    background-color: transparent;
+    border-style: solid;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    border-color: coral;
+}
+#section{
+    background: url(portfio.jpg) no-repeat center center/cover;
+    margin-bottom: o.5rem;
+    height: 100vh;
+}
+.hww{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+.f-container{
+    width: 23rem;
+    height: 17rem;
+    border: 1px black solid;
+    margin-left: 3rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+.empty-img{
+    margin-left: 4rem;
+    height: 100px;
+    border: 1px black solid;
+    border-radius: 50%;
+    margin: 2rem;
+}
+.u1{
+    margin-left: 6.6rem;
+}
+#leo-messi{
+    display: flex;
+    background: rosybrow;
+    border: none;
+}
+.ltt{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: cornflowerblue;
+}
+.web-form{
+    
+}
+#contact{
+    display: flex;
+    justify-content: space-around;
+    background: ;
+    height: 500px;
+
+
+}
+#contact div{
+    margin-top: 4rem;
+
+}
+#contact div form input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+    outline: none;
+    border: none;
+    margin: 1.3rem;
+    background: #fff;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 5rem;
+    background: lightcoral;
+    margin-left: 4.4rem;
+    ;
+}
+footer{
+    text-align: center;
+    background: black;
+    height: 70px;
+    padding: 1rem;
+    color: #fff;
+}
+
+#dark-btn{
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    background: #ccc;
+    width: 2.8125rem;
+    border-radius: .9375rem;
+    padding: .125rem .1875rem;
+    cursor: pointer;
+    display: flex;
+    transition: padding-left: 0.5s background 0.5s;
+}
+#dark-btn span{
+    width: 1.125rem;
+    height: 1.125rem;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+#dark-btn.dark-btn-on{
+    padding-left: 1.4375rem;
+    background: #0a0a0a;
+}
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+
+
